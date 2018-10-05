@@ -1,0 +1,169 @@
+/* Login Page -- Logo */
+.wrap{
+    padding: 5rem 0;
+    position: relative;
+    z-index: 1;
+}
+.wrap .box{
+    background: #fff;
+    box-shadow: 0 1px 7px #ccc;
+}
+.wrap .box .logo_box{
+    padding: 2rem;
+    position: relative;
+    background-color: #EBF4FA;
+}
+.wrap .box .logo_box > div, .wrap .box .form_box > div{
+    z-index: 1;
+    position: relative;
+}
+.logo{
+    text-align: left !important;
+}
+header{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+section{
+    display: inline;
+}
+header section.t{
+    color: black;
+}
+header section.l{
+    color: yellowgreen !important;
+}
+header section.s{
+    color: lightseagreen;
+}
+
+/* Login Page -- Text */
+.text{
+    text-align: center;
+}
+.text p.head{
+    text-transform: uppercase;
+    margin-top: 8em;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    letter-spacing: 2px;
+}
+.text p.line{
+    text-transform: uppercase;
+    margin-top: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: lightcoral;
+    letter-spacing: 1.5px;
+}
+/* Logo Page --Button */
+.button, .button1{
+    border: 1.5px solid red;
+    border-radius: 15px;
+    padding: 4px;
+    text-align: center;
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 3em;
+    letter-spacing: 1px;
+    font-size: 14px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.button:hover{
+    background: red;
+    transition: .2s ease-in-out;
+}
+a:hover{
+    color: #fff;
+    transition: .2s ease-in-out;
+}
+/* Logo Page --icons */
+.icon{
+    margin-top: 7em;
+    letter-spacing: 30px;
+    text-align: center;
+}
+.icon i{
+    color: gray;
+}
+
+/* Logo Page --form */
+.form_box{
+    background-color: gray !important;
+}
+.form p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 5em;
+    margin-left: 15%;
+    color: #fff;
+}
+.form p.small-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-left: 15%;
+    margin-top: 1em;
+    color: #EAF4FA;
+}
+.input{
+    margin-left: 15%;
+    margin-top: -2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.input p.user{
+    margin-left: 0;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+input{
+    width: 80%;
+}
+.input p.pass{
+    margin-top: 20px;
+}
+input.check{
+    margin-top: 18px;
+    width: 18px;
+    background-color: transparent;
+}
+.form p.rem, .form p.forget{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #EAF4FA;
+    position: relative;
+    margin: 0;
+    display: inline;
+    letter-spacing: 0.5px;
+}
+.form p.forget{
+    float: right;
+    margin: 0;
+    position: relative;
+    margin-top: 1em;
+    padding-right: 20%;
+}
+.button1{
+    background: lightsalmon;
+    width: 30%;
+    margin-left: 25%;
+    border: 2px solid lightsalmon;
+}
+.button1:hover{
+    background: #fff; 
+    transition: .2s ease-in-out;
+}
+.button1 a:hover{
+    color: lightsalmon;
+    transition: .2s ease-in-out;
+}
+.button1 a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}

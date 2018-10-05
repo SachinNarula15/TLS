@@ -1,0 +1,199 @@
+/* Side Navbar Style */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav p{
+    background: gray;
+    color: #fff;
+    width: 60%;
+    padding: 15px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Main Text Style */
+.box{
+    width: 100%;
+    background-color: #eaf4fa;
+    margin-top: 5px;
+    padding: 5px;
+
+}
+.box p{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    position: relative;
+    color: darkgray;
+    margin-left: 2px;
+}
+.box p.cal{
+    float: right;
+    margin: -2.2em;
+    margin-right: 1%;
+    border: 1px solid #111;
+    padding-left: 4px;
+    width: 110px;
+}
+.cal p{
+    font-size: 16px;
+}
+.packed{
+    width: 100%;
+    height: auto;
+    box-shadow: #818181;
+    background: #fff;
+    margin-right: 8%;
+    padding-top: 10px;
+}
+div.packed p{
+    font-size: 10px;
+}
+div.packed section{
+    font-size: 20px;
+    color: purple;
+    margin-top: -1em;
+    margin-left: 5%;
+}
+div.packed i{
+    color: grey;
+    font-size: 25px;
+    float: right;
+}
+div.packed p.be, .inven-box p.item{
+    position: relative;
+    font-size: 16px;
+    margin-top: -1em;
+    color: #111;
+}
+
+/* Inventory box */
+.inven-box{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+hr{
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: -0.5em;
+}
+.inven-box .black, .graph-box .black{
+    color: #111;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.inven-box p.det{
+    font-size: 16px;
+    margin: 10px;
+    margin-top: 0;
+    text-transform: none;
+}
+span.fig{
+    float: right;
+    color: red;
+}
+.graph-box{
+    background: #fff;
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: -15px;
+}
+#chart{
+    font-size: 25em;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+#chart1{
+    font-size: 25em;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.product{
+    margin-top: 20px;
+    margin-left: -15px;
+    margin-bottom: 20px;
+}
+.inven-box p.color{
+    color: red;
+}
+.inven-box span.rang{
+    color: darkgray;
+}
+.inven-box p.item{
+    margin-top: 1px;
+    margin-left: 11px;
+    text-transform: none;
+}
+.inven-box div.skills{
+    text-align: right;
+    padding: 2%;
+    color: #fff;
+}
+.inven-box div.bar{
+    width: 80%;
+    background-color: #2196F3;
+}
+.contain{
+    width: 100%;
+    background-color: #ddd;
+}
+.size{
+    margin-left: -15px;
+    width: 103%;
+}
+.package{
+    background: #fff;
+    width: 100%;
+    margin-left: 0px;
+    font-size: 40px;
+    margin-top: 5px;
+    text-align: center;
+}
+.package p.demo{
+    font-size: 16px;
+    margin-top: 4em;
+}
